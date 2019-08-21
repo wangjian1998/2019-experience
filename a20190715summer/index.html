@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="favicon.ico" rel="shortcut icon">
+    <link type="text/css" rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+        <div class="kv">
+            <div class="head">
+                <h1><a class="hd logo" href="" onclick="PTTSendClick('kv','logo','电击文库')" title="点击文库，灵境交错"></a></h1>
+                <a href="" onclick="PTTSendClick('kv','enter','进入官网')" title="进入官网" class="hd enter"></a>
+            </div>
+            <img class="hd slogan" src="image/slogan.png" alt="夏日大作战，与泳装少女开启夏日物语">
+            <div class="btn">
+                <a href="" onclick="PTTSendClick('btn','gift','萌新好礼')" class="hd gift fl" title="萌新好礼"></a>
+                <a href="" onclick="PTTSendClick('btn','download','下载游戏')" class="hd download fl" title="下载游戏"></a>
+            </div>
+        </div>
+        <div class="part1">
+            <h2 class="hd bt1">夏日祭，三重奏</h2>
+            <ul>
+                <li class="hd">8月22日s级角色福利活动</li>
+                <li class="hd">8月25日全新泳装角色</li>
+                <li class="hd">8月25日夏日副本</li>
+            </ul>
+        </div>
+        <div class="part2">
+            <h2 class="hd bt2">s级角色，如约而至</h2>
+            <p>伴随夏日的节奏，金色时光如约而至。灵境使们，完成
+                任务，邂逅喜欢的S级角色吧
+            </p>
+            <p>在游戏内福利界面参与活动，完成各个阶段的任务
+                后，即可在当前版本的49名角色中，任意挑选一名
+                S级角色！活动永久有效，没有任何时间限制。
+            </p>
+            <h3 class="hd role-name">启动游戏查看更多S级角色</h3>
+            <ul>
+                <li class="hd">御坂美琴</li>
+                <li class="hd">夏娜</li>
+                <li class="hd">亚丝娜</li>
+            </ul>
+        </div>
+        <div class="part3">
+            <h2 class="hd bt3">灵境夏日祭开启</h2>
+            <p>夏日微风与热血战斗</p>
+            <h3 class="hd nav1">全新地图，领略灵境</h3>
+            <img src="image/img.png" alt="灵境地图" class="hd map">
+            <h3 class="hd nav2">激萌夏日副本，夏日限定挂件藏品</h3>
+            <img src="image/guajian.png" alt="夏日限定挂件" class="hd guajian">
+            <img src="image/xinguajian.png" alt="全新挂件" class="hd xinguajian">
+            <p>灵境海滨世界每三天会开启3个全新的挑战副本~<br>
+                少年少女们，即可开启夏日大作战吧~
+            </p>
+            <div class="dianji">
+                <div class="hd on-cli" title="点击展开"></div>
+                <div class="hd off-cli" title="点击关闭"></div>
+                <!-- <a href="" class="hd on-cli" onclick="PTTSendClick('dianji','on','点击展开')" title="点击展开"></a> -->
+                <!-- <a href="" class="hd off-cli" onclick="PTTSendClick('dianji','off','点击关闭')" title="点击关闭"></a> -->
+                <div class="zhankai">
+                    <img class="hd active-time" src="image/time.png" alt="活动时间">
+                    <p>步入海滩副本，有几率获取橙色藏品<br>
+                        每个副本中有3个星级挑战，每完成1个挑战获得1颗星，<br>
+                        累计获得星星达到一定数量，<br>
+                        可领取限定书签兑换券、情报体以及专属挂件等丰厚的奖励哦！
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="part4">
+            <h2 class="hd bt4">限定角色清凉解暑</h2>
+            <p class="jiejin">【解禁】御坂美琴、高坂桐乃泳装限定</p>
+            <img class="hd ybmq" src="image/ybmq.png" alt="御坂美琴">
+            <div class="introduce1">
+                <p class="brief-intro">就读常盘台中学的学生，别名[超电磁炮]的高等点击能力者
+                    （Electro Master）;学园都市内仅有7位的超能力者（等级5）之一
+                </p>
+                <div class="skill">
+                    <ul>
+                        <li class="hd skill-1">一技能图标</li>
+                        <li class="hd skill-2">二技能图标</li>
+                        <li class="hd skill-3">三技能图标</li>
+                    </ul>
+                </div>
+                <div class="skill-des">
+                    <p><span>技能名称:</span>电疗</p>
+                    <p><span>技能点数:</span>0</p>
+                    <p><span>技能描述:</span>夏天也不能放弃电疗！对敌方全体造成物理伤害+异能伤害
+                    </p>
+                    <div id="shipin1"></div>
+                </div>
+            </div>
+
+            <img class="hd ybmq" src="image/gbtn.png" alt="高坂桐乃">
+            <div class="introduce1">
+                <p class="brief-intro">运动万能、成绩优秀】容貌秀丽，一切完美无缺的国中二年级少女
+                    。只是有个特殊的兴趣，喜欢妹系的游戏。和哥哥京介处于冷战。
+                </p>
+                <div class="skill">
+                    <ul>
+                        <li class="hd skill-4">一技能图标</li>
+                        <li class="hd skill-5">二技能图标</li>
+                        <li class="hd skill-6">三技能图标</li>
+                    </ul>
+                </div>
+                <div class="skill-des">
+                    <p><span>技能名称:</span>泳装少女的愤怒</p>
+                    <p><span>技能点数:</span>0</p>
+                    <p><span>技能描述:</span>本来在享受海滩风景的桐乃突然
+                    莫名其妙地暴走了！对敌方全体造成物理伤害</p>
+                    <div id="shipin2"></div>
+                </div>
+            </div>
+        </div>     
+    </div>
+</body>
+<script src="jquery-3.4.0.min.js"></script>
+<script src='//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js'></script>
+<script>
+    //此段代码不能放到外链JS中，
+    var setSite = { //设置网站属性 
+            siteType: "a20190715summer", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+            pageType: "index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+            pageName: "首页", //必填项:页面中文名 
+            project: "base", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;官网微社区base;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+            osact: 'm' //选填项:默认是0。osact=0表示非官网专题；osact=pc表示pc官网/pc官网专题；osact=m表示移动官网/移动官网专题；osact=ingame表示微社区/微社区专题
+        };
+
+        
+    //屏幕适应
+    (function (win, doc) {
+        if (!win.addEventListener) return;
+        var html = document.documentElement;
+        function setFont() {
+            var html = document.documentElement;
+            var k = 750;
+            html.style.fontSize = html.clientWidth / k * 100 + "px";
+        }
+        setFont();
+        setTimeout(function () {
+            setFont();
+        }, 300);
+        doc.addEventListener('DOMContentLoaded', setFont, false);
+        win.addEventListener('resize', setFont, false);
+        win.addEventListener('load', setFont, false);
+    })(window, document);
+
+
+    if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        window.location.href = "//djwk.qq.com/cp/a20181128christmas/index.shtml";
+    }
+
+
+    $(function () {
+    $('.on-cli').click(function () {
+        $('.zhankai').css('display', 'block');
+        $('.on-cli').css('display', 'none');
+        $('.off-cli').css('display', 'block');
+    })
+})
+$(function () {
+    $('.off-cli').click(function () {
+        $('.zhankai').css('display', 'none');
+        $('.on-cli').css('display', 'block');
+        $('.off-cli').css('display', 'none');
+    })
+})
+
+var player = new Txplayer({
+        containerId: 'shipin1',
+        vid: '点播vid',
+        width: '200',
+        height: '140',
+        autoplay: true
+    });
+
+    var player = new Txplayer({
+        containerId: 'shipin2',
+        vid: '点播vid',
+        width: '200',
+        height: '140',
+        autoplay: true
+    });
+</script>
+
+</html>

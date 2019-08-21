@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <title>Document</title>
+    <!-- <script>
+    	//屏幕适应
+        (function (win, doc) {
+            if (!win.addEventListener) return;
+            var html = document.documentElement;
+            function setFont() {
+                var html = document.documentElement;
+                var k = 750;
+                html.style.fontSize = html.clientWidth / k * 100 + "px";
+            }
+            setFont();
+            setTimeout(function () {
+                setFont();
+            }, 300);
+            doc.addEventListener('DOMContentLoaded', setFont, false);
+            win.addEventListener('resize', setFont, false);
+            win.addEventListener('load', setFont, false);
+        })(window, document);
+
+        if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+            window.location.href = "//djwk.qq.com/cp/a20181128christmas/index.shtml";
+        }
+    </script> -->
+
+</head>
+
+<body>
+    <script src="//ossweb-img.qq.com/images/js/title.js"></script>
+    <div class="main">
+        <div class="header">
+            <h1><a href="" title="电击文库：零境交错" class="logo hd"></a></h1>
+            <div class="btn-1">
+                <a href="" onclick="PTTSendClick('btn-1','download','下载游戏')" class="download hd fl"
+                    title="下载游戏">下载游戏</a>
+                <a href="" onclick="PTTSendClick('btn-1','enter','进入官网')" class="enter hd fl" title="进入官网">进入官网</a>
+            </div>
+            <img src="images/slogan.png" class="hd slogan" alt="圣诞冬日物语。飘雪圣诞，邀约心仪的少女吧">
+        </div>
+        <div id="sichongzou" class="sichongzou">
+            <h2 class="biaoti1 hd">圣诞四重奏</h2>
+            <img class="hd kapian" src="sichongzou/abstract.png" alt="暖冬贺卡，圣诞物语，崭新体验，上新角色">
+        </div>
+        <div id="predicted" class="predicted">
+            <h2 class="biaoti2 hd">神秘占卜</h2>
+            <!-- <img src="zhanbu/divination.png" class="shuijing hd" alt="占卜水晶"> -->
+            <div onClick="TGDialogS('test1')" onclick="PTTSendClick('biaoti2 hd','zhanbu','开始占卜')" title="开始占卜" class="start hd">
+                   <img src="zhanbu/kaishizhanbu.png" alt="开始占卜">开始占卜</div>
+
+                   <!-- <a href="javascript: TGDialogS('divination_pop');" title="开始占卜" ontouchend="PTTSendClick('section2','start-div','开始占卜');" class="start hd">开始占卜</a> -->
+
+            <!-- <div class="kaishi"></div> -->
+            <!-- <div class="kaishi"><button onClick="TGDialogS('test1')"><img src="zhanbu/kaishizhanbu.png"
+                alt="开始占卜"></button> -->
+            <!-- 弹出层test1 Start-->
+            <div class="dialog" id="test1" style="display:none">
+                <div class="dia-con" style=" height: 400px; 
+            width:400px;
+            border:1px solid red;
+            font-size:20px;
+            color: aliceblue;
+            line-height: 400px;
+            text-align: center;">这是一个二维码</div>
+                <a class="dia-close" href="javascript:showDialog.hide()"
+                    style="text-decoration: none;color:red;font-size:20px;" title="关闭">×</a>
+            </div>
+            <!-- 弹出层test1 End-->
+        </div>
+        <div id="Christmas-wuyu" class="Christmas-wuyu">
+            <h2 class="biaoti3 hd">圣诞物语</h2>
+            <ul class="active">
+                <li><img class="a active1" src="Christmas-wuyu/two.png" alt="圣诞游戏">
+                    <div class=" fuben fuben1">
+                        <h2>主题副本</h2>
+                        <img src="Christmas-wuyu/fuben.png" alt="副本图片">
+                        <p>水晶球中的冰雪世界降临，一同创造被点缀的冬日回忆吧！12月12日
+                            起，通关冬日物语活动副本【圣诞小屋】，就有机会获得冬日藏品，
+                            书签兑换券等丰厚奖励。
+                        </p>
+                    </div>
+                </li>
+                <li><img class="a active2" src="Christmas-wuyu/three.png" alt="圣诞商店">
+                    <div class="fuben fuben2">
+                        <h2>主题副本</h2>
+                        <img src="Christmas-wuyu/fuben.png" alt="副本图片">
+                        <p>水晶球中的冰雪世界降临，一同创造被点缀的冬日回忆吧！12月12日
+                            起，通关冬日物语活动副本【圣诞小屋】，就有机会获得冬日藏品，
+                            书签兑换券等丰厚奖励。
+                        </p>
+                    </div>
+                </li>
+                <li><img class="a active3" src="Christmas-wuyu/four.png" alt="圣诞任务">
+                    <div class="fuben fuben3">
+                        <h2>主题副本</h2>
+                        <img src="Christmas-wuyu/fuben.png" alt="副本图片">
+                        <p>水晶球中的冰雪世界降临，一同创造被点缀的冬日回忆吧！12月12日
+                            起，通关冬日物语活动副本【圣诞小屋】，就有机会获得冬日藏品，
+                            书签兑换券等丰厚奖励。
+                        </p>
+                    </div>
+                </li>
+                <li><img class="a active4" src="Christmas-wuyu/five.png" alt="圣诞特邀">
+                    <div class="fuben fuben4">
+                        <h2>主题副本</h2>
+                        <img src="Christmas-wuyu/fuben.png" alt="副本图片">
+                        <p>水晶球中的冰雪世界降临，一同创造被点缀的冬日回忆吧！12月12日
+                            起，通关冬日物语活动副本【圣诞小屋】，就有机会获得冬日藏品，
+                            书签兑换券等丰厚奖励。
+                        </p>
+                    </div>
+                </li>
+                <li><img class="a active5" src="Christmas-wuyu/two.png" alt="圣诞游戏">
+                    <div class=" fuben fuben5">
+                        <h2>主题副本</h2>
+                        <img src="Christmas-wuyu/fuben.png" alt="副本图片">
+                        <p>水晶球中的冰雪世界降临，一同创造被点缀的冬日回忆吧！12月12日
+                            起，通关冬日物语活动副本【圣诞小屋】，就有机会获得冬日藏品，
+                            书签兑换券等丰厚奖励。
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="experience" class="experience">
+            <h2 class="biaoti4 hd">全新体验</h2>
+            <div class="con">
+                <div class="ex-left">
+                    <h3>雪夜绮想</h3>
+                    <img src="experience/scene.png" alt="雪夜图片">
+                </div>
+
+                <div class="ex-right">
+                    <div id="target" class="target">
+                        <img src="experience/guajian3.png" alt="冰晶挂件">
+                        <img src="experience/guajian1.jpg" alt="冰晶挂件">
+                        <img src="experience/guajian2.jpg" alt="冰晶挂件">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- <img src="experience/guajian.png" alt="冰晶挂件">
+                    <p>获取条件：满星通关耀塔楼</p>
+                    <p>品质：金</p>
+                </div> -->
+            </div>
+        </div>
+        <div id="role" class="role">
+            <h2 class="biaoti5 hd">上新角色</h2>
+            <div class="role1">
+                <p class="introduce-one">高坂桐乃在御宅族社团的聚会中遇见的少女。患有【中二病】。
+                    总是穿着哥特萝莉服装，言行举止惹人怜爱，格斗游戏的技术高超
+                </p>
+                <p class="skill-one">消耗：0技能点<br>简介：黑猫献祭其他生物的灵魂能力，敌我双方
+                    除了自身外附加创伤状态；自身获得【黑暗之力】增加自身二号位技能和升华技能伤害
+                </p>
+                <p class="skill-two">消耗：3技能点<br>简介：[听从吾之召唤！出现吧，黑暗之眷顾]召唤黑暗眷顾，对
+                    敌方全体造成异能伤害</p>
+                <p class="skill-three">消耗：10升华点<br>简介：就让我来发泄一下人生中最大的怨念吧！化为黑暗小魔女阿尔法，施展超强魔法
+                    攻击，对敌方全体造成异能伤害。</p>
+                <p class="say1">来吧,黑暗之眷属!</p>
+                <div class="shipin1" id="shipin1" onClick="TGDialogS('test2')" style="position: absolute;
+                top: 58%;
+                left: 70%;
+                width: 187px;
+                height: 105px;">                       
+                </div>
+            </div>
+            <div class="role2">
+                <p class="introduce-two">掌控麦子丰收的狼神。外貌是十多岁的少女，真正的模样是数百岁的巨狼
+                    。食欲旺盛酒量惊人。希望回到北方故乡的一字森林。常用老练的口吻戏弄旅行伙伴罗伦斯。
+                </p>
+                <p class="skill-four">消耗：1技能点<br>简介：赫萝可行动，技能点不超过两个小时，展开固有领域[丰收的麦田]，
+                    增加若干技能点，轮到我方行动时扣除少量技能点。
+                </p>
+                <p class="say2">汝啊，选择了咱吗？</p>
+                <div class="shipin2" id="shipin2" onClick="TGDialogS('test3')" style="position: absolute;
+                top: 58%;
+                left: 70%;
+                width: 187px;
+                height: 105px;">                       
+                </div>
+            </div>
+
+        </div>
+        <div class="right-nav">
+            <ul>
+                <li class="guide guide1"><a href="#predicted">神秘占卜</a></li>
+                <li class="guide guide2"><a href="#Christmas-wuyu">圣诞物语</a></li>
+                <li class="guide guide3"><a href="#experience">全新体验</a></li>
+                <li class="guide guide4"><a href="#role">上新角色</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+    <script src="jquery-3.4.0.min.js"></script>
+    <script src="index.js"></script>
+    <script src='//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js'></script>
+    <script src="//ossweb-img.qq.com/images/js/milo_bundle/milo.js"></script>
+    <script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+    <script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+
+    <script>
+
+        //此段代码不能放到外链JS中，
+        var setSite = { //设置网站属性 
+            siteType: "a20190709Chrastmas", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+            pageType: "index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+            pageName: "首页", //必填项:页面中文名 
+            project: "base", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;官网微社区base;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+            osact: 'pc' //选填项:默认是0。osact=0表示非官网专题；osact=pc表示pc官网/pc官网专题；osact=m表示移动官网/移动官网专题；osact=ingame表示微社区/微社区专题
+        };
+        if (typeof (pgvMain) == 'function') pgvMain();//千万不能忘记！
+
+        function TGDialogS(e) {
+            // 利用milo库引入dialog组件
+            need("biz.dialog", function (Dialog) {
+                Dialog.show({
+                    id: e,
+                    bgcolor: '#000', //弹出“遮罩”的颜色，格式为"#FF6600"，可修改，默认为"#fff"
+                    opacity: 50 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+                });
+            });
+        }
+        function closeDialog() {
+            // 利用milo库引入dialog组件
+            need("biz.dialog", function (Dialog) {
+                Dialog.hide();
+            });
+        }
+
+        var player = new Txplayer({
+        containerId: 'shipin1',
+        vid: '点播vid',
+        width: '187',
+        height: '105',
+        autoplay: true
+    });
+    var player = new Txplayer({
+        containerId: 'shipin2',
+        vid: '点播vid',
+        width: '187',
+        height: '105',
+        autoplay: true
+    });
+    </script>
+</body>
+
+</html>

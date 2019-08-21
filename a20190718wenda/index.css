@@ -1,0 +1,420 @@
+div, p, h1, h2, h3, h4, h5, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.hover {
+    cursor: pointer;
+}
+
+/* .header-top{
+    width:100%;
+    height:0.65rem;
+    background:url(wenda/head.png) no-repeat center/cover;
+    z-index: 10;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+.logo::after{
+    position:absolute;
+    bottom:2rem;
+    right:0;
+    content:'';
+    width:1rem;
+    height:1rem;
+    background:red;  
+    display:block;  
+    z-index:100;
+}
+
+.header-home{
+    width:100%;
+    height:0.8rem;
+    background-color:orange;
+    font-size:0.35rem;
+    margin:0 auto;
+    margin-top:0.65rem;
+    line-height:0.8rem;
+}
+
+.header-home li{
+    float:left;
+    margin-left:16%;
+    list-style: none;
+    font-size: 0.216rem;
+}
+
+.header-home li a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.header-bottom{
+    width:100%;
+    height: 0.7rem;
+}
+
+.header-bottom a{
+    background-image: url(wenda/backBg.png);
+    background-repeat: no-repeat;
+    width:10%;
+    height:100%;
+    float:left;
+    margin:auto auto;
+    background-position: center;
+}
+
+.content{
+    width:70%;
+    height:0.667rem;
+    line-height: 0.667rem;
+    font-size:0.216rem;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    float:left;
+
+}
+
+.time{
+    width: 20%;
+    height: 0.667rem;
+    line-height: 0.667rem;
+    font-size: 0.216rem;
+    float:left;
+} */
+
+body {
+    font-size: .216rem;
+}
+
+.header {
+    width: 100%;
+    height: 7.5rem;
+    background: url(ossweb/images/yao.jpg) no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.logo {
+    width: 1.14rem;
+    height: 0.84rem;
+    background: url(ossweb/logo.png) no-repeat;
+    background-position: 100%;
+}
+
+.title {
+    width: 3.28rem;
+    height: 0.68rem;
+    background: url(ossweb/title.png) no-repeat;
+    background-position: 100%;
+    position: absolute;
+    top: .2rem;
+    left: 1.4rem;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    left: 0rem;
+    bottom: -.4rem;
+    width: 100%;
+    height: 2.95rem;
+    background: url(ossweb/h-after.png) no-repeat;
+    background-size: 100%;
+    margin-top: -3.3rem;
+}
+
+.hd {
+    display: block;
+    text-indent: -9999px;
+    font-size: 0.216rem;
+}
+
+.main {
+    background: url(ossweb/images/BG.jpg) no-repeat 0rem 0rem;
+    width: 100%;
+    margin: auto;
+    background-size:100%;
+}
+
+.donney {
+    width: 6.62rem;
+    height: .49rem;
+    background: url(ossweb/title1.png) no-repeat;
+    background-size: 100%;
+    margin: .2rem auto;
+}
+
+.d-wenda,.gu-wenda {
+    width: 63%;
+    list-style: none;
+    margin: .6rem .68rem 0 auto;
+    height: 7.2rem;
+}
+
+.d-wenda li,.gu-wenda li {
+    width: 100%;
+    position: relative;
+    min-height: .87rem;
+}
+
+.d-wenda li:nth-child(1) img, .d-wenda li:nth-child(3) img,.gu-wenda li:nth-child(1) img, .gu-wenda li:nth-child(3) img {
+    position: absolute;
+    top: -.1rem;
+    right: .9rem;
+    width: .72rem;
+    height: .72rem;
+    vertical-align: middle;
+}
+
+.d-wenda li:nth-child(1) p, .d-wenda li:nth-child(3) p,.gu-wenda li:nth-child(1) p, .gu-wenda li:nth-child(3) p {
+    width: 1.44rem;
+    height: .26rem;
+    position: absolute;
+    top: .6rem;
+    right: .5rem;
+    background: url(ossweb/quizzer.png) no-repeat;
+    background-size: 100%;
+}
+
+.ask1,.ask3 {
+    width: 6.24rem;
+    font-size: .216rem;
+    background: url(ossweb/1.png) no-repeat;
+    background-size: 100%;
+    text-align: center;
+    height: 1.43rem;
+    line-height: 0.73rem;
+    margin-right: .8rem;
+}
+
+.d-wenda li:nth-child(2) img, .d-wenda li:nth-child(4) img,.gu-wenda li:nth-child(2) img, .gu-wenda li:nth-child(4) img {
+    position: absolute;
+    top: -.1rem;
+    left: -0.15rem;
+    width: .72rem;
+    height: .72rem;
+    vertical-align: middle;
+}
+
+.answer1,.answer3 {
+    width: 7rem;
+    background: url(ossweb/2.png) no-repeat;
+    background-size: 100%;
+    padding-left: .3rem;
+    padding-top: .2rem;
+    height: 2rem;
+    line-height: 0.3rem;
+    margin-left: .6rem;
+}
+
+.d-intro,.gu-intro {
+    background: url(ossweb/d-bg.png) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 2.58rem;
+    position: relative;
+}
+
+.d-intro dl,.gu-intro dl {
+    width: 8rem;
+    margin: auto;
+    font-size: .3rem;
+    margin-left: 40%;
+    padding-top: .2rem;
+}
+
+.d-intro dd,.gu-intro dd{
+    position: relative;
+    top: -.4rem;
+    left: 1.5rem;
+    display: inline-block;
+    color:rgb(14, 179, 201);
+    vertical-align: top;
+}
+
+
+.d-intro img,.gu-intro img{
+    position: absolute;
+    bottom:0rem;
+    left:0rem;
+    display:block;
+}
+
+.d-intro::after,.gu-intro::after{
+    position: absolute;
+    content:'';
+    background-size: 100%;
+    left:0rem;
+    top: 0rem;
+    width:13.34rem;
+    display: block;
+    height: 2.79rem;
+    background: url(ossweb/xing1.png) no-repeat;
+}
+
+
+.cat{
+    width: 6.62rem;
+    height: .49rem;
+    background: url(ossweb/title2.png) no-repeat;
+    background-size: 100%;
+    margin: 1rem auto;
+}
+
+.fanfan{
+    width: 6.62rem;
+    height: .49rem;
+    background: url(ossweb/title4.png) no-repeat;
+    background-size: 100%;
+    margin: 1rem auto;
+}
+
+.c-wenda,.fan-wenda {
+    width: 63%;
+    list-style: none;
+    margin: .6rem auto 0 0.68rem;
+    height: 7.2rem;
+}
+
+.c-wenda li,.fan-wenda li {
+    width: 100%;
+    position: relative;
+    min-height: .87rem;
+}
+
+.c-wenda li:nth-child(1) img, .c-wenda li:nth-child(3) img,.fan-wenda li:nth-child(1) img, .fan-wenda li:nth-child(3) img {
+    position: absolute;
+    top: -.1rem;
+    left: .3rem;
+    width: .72rem;
+    height: .72rem;
+    vertical-align: middle;
+}
+
+.c-wenda li:nth-child(1) p, .c-wenda li:nth-child(3) p,.fan-wenda li:nth-child(1) p, .fan-wenda li:nth-child(3) p {
+    width: 1.44rem;
+    height: .26rem;
+    position: absolute;
+    top: .6rem;
+    background: url(ossweb/quizzer.png) no-repeat;
+    background-size: 100%;
+}
+
+.ask2,.ask4 {
+    width: 6.24rem;
+    font-size: .216rem;
+    background: url(ossweb/1111.png) no-repeat;
+    background-size: 100%;
+    text-align: center;
+    height: 1.43rem;
+    line-height: 0.73rem;
+    margin-left: 1.5rem;
+}
+
+.c-wenda li:nth-child(2) img, .c-wenda li:nth-child(4) img,.fan-wenda li:nth-child(2) img, .fan-wenda li:nth-child(4) img {
+    position: absolute;
+    top: -.1rem;
+    right: .4rem;
+    width: .72rem;
+    height: .72rem;
+    vertical-align: middle;
+}
+
+.answer2,.answer4 {
+    width: 7rem;
+    background: url(ossweb/22.png) no-repeat;
+    background-size: 100%;
+    padding-left: .3rem;
+    padding-top: .2rem;
+    height: 2rem;
+    line-height: 0.3rem;
+    margin-left: -.2rem;
+}
+
+
+.m-intro,.fan-intro {
+    background: url(ossweb/d-bg.png) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 2.58rem;
+    position: relative;
+    padding-bottom: .2rem;
+}
+
+.m-intro dl,.fan-intro dl {
+    width: 7rem;
+    margin-left: .3rem;
+    font-size: .3rem;
+    margin-right: 40%;
+    padding-top: .2rem;
+}
+
+.m-intro dl dt:nth-child(2),.fan-intro dl dt:nth-child(2){
+    float:right;
+}
+
+
+.m-intro dd,.fan-intro dd{
+    position: relative;
+    top: -.4rem;
+    left: 1.5rem;
+    display: inline-block;
+    color:rgb(14, 179, 201);
+    vertical-align: top;
+}
+
+.m-intro img,.fan-intro img{
+    position: absolute;
+    bottom: 0.23rem;
+    right:0rem;
+    display:block;
+}
+
+.m-intro::after,.fan-intro::after{
+    position: absolute;
+    content:'';
+    background-size: 100%;
+    left:0rem;
+    top: 0rem;
+    width:13.34rem;
+    display: block;
+    height: 2.79rem;
+    background: url(ossweb/xing2.png) no-repeat;
+}
+
+
+.guying{
+    width: 6.62rem;
+    height: .49rem;
+    background: url(ossweb/title3.png) no-repeat;
+    background-size: 100%;
+    margin: .3rem auto;
+}
+
+
+.bottom {
+    margin:.4rem auto;
+    font-size: .3rem;
+}
+
+.bottom p {
+    margin-bottom: .5rem;
+    color:#45536a;
+    text-align: center;
+} 
+
+.bottom a {
+    background:url(ossweb/bt.png) no-repeat;
+    width: 2.57rem;
+    height: .88rem;
+    margin: 0 auto;
+    display: block;
+}
